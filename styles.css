@@ -16,10 +16,12 @@ html {
   }
 
 #personal-logo {
-    filter:invert();
-    width: 50px;
+    filter: brightness(0%);
+    width: 76px;
     height: 50px;
 }
+
+
 
 li {
     list-style-type: none;
@@ -142,7 +144,7 @@ input:focus, textarea:focus {
 }
 
 #personal-logo {
-    
+
 }
 
 
@@ -173,12 +175,13 @@ nav,
     text-shadow: 0 0 20px;
 }
 
+
 .dark-theme section {
     background-color: #242424;
 }
 
 .dark-theme #personal-logo {
-    filter: none;
+    filter: brightness(1000%);
 }
 
 .dark-theme .scroll__icon {
@@ -633,7 +636,9 @@ footer {
 }
 
 .footer__logo--img {
+    filter: brightness(1000%);
     width: 70px;
+    height: 50px;
 }
 
 .footer__social--list {
