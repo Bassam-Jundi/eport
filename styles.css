@@ -135,10 +135,16 @@ input:focus, textarea:focus {
     background-color: #242424;
 }
 
+
 .link__hover-effect:hover:after {
     left: 0;
     width: 100%;
 }
+
+#personal-logo {
+    
+}
+
 
 nav,
 .scroll,
