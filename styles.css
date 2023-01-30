@@ -756,6 +756,9 @@ width = 80vw
 /* Small phones */
 
 @media (max-width: 480px) {
+    .shape {
+        display: none;
+    }
     .title {
         font-size: 52px;
     }
